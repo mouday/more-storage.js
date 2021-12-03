@@ -22,7 +22,7 @@ module.exports = {
     clean: true, // 在生成文件之前清空 output 目录
 
     library: {
-      name: 'MoreStorage',
+      name: 'moreStorage',
       type: 'umd',
       // 不添加的话引用的时候需要 libraryName.default
       export: 'default',
@@ -55,6 +55,7 @@ module.exports = {
           },
         },
       },
+      // ts
       { test: /\.tsx?$/, loader: 'ts-loader' },
     ],
   },
