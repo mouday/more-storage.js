@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5", // 目标语言的版本
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "declaration": true, // 生成声明文件，开启后会自动生成声明文件
+    "declarationDir": "./types" // 指定生成声明文件存放目录
+  },
+  // 指定待编译的文件
+  "include": ["src/**/*.ts"],
+  // 指定排除的文件
+  "exclude": ["node_modules", "types"]
+}
